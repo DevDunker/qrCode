@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Outfit:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Outfit, sans-serif;
+    background-color: #d5e1ef;
+    display: flex;
+    align-items: center;
+}
+
+.main_container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 17rem;
+    height: fit-content;
+    padding: 0.8rem;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+.qrCode_container{
+    text-align: center;
+}
+
+.qrCode_image{
+    height: 15rem;
+    width: 17rem;
+    border-radius: 1rem;
+}
+
+.qr_textContainer{
+    text-align: center;
+    padding: 0.8rem;
+}   
+
+#title{
+    font-size: 19px;
+}
+
+#content{
+    font-size: 15px;
+    color: gray;
+}
